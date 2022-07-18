@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --color-red: #F03C42;
+    --color-blue: #222374;
+    --color-white: #FFFFFF;
+    --color-gray: #CCCCCC;
+
+
+
+}
+* {
+    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--color-red);
+}
+
+header img {
+    width: 30px;
+    height: 30px;
+}
+
+.our-space {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+.fitness {
+    background-color: var(--color-gray);
+    width: 960px;
+    height: 127px;
+    border-radius: 8px;
+}
+
+.fitness p {
+    
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.fitness article {
+    width: 920px;
+    height: 40px;
+}
