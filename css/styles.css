@@ -18,31 +18,75 @@
 
 header {
     background-color: var(--color-red);
+    height: 100px;    
 }
 
-header img {
+nav h4 {
+    color: var(--color-white);    
+}
+
+nav img {
     width: 30px;
-    height: 30px;
+    height: 30px;    
 }
 
-.our-space {
+nav p {    
+    color: var(--color-white);
+}
+
+.instagran {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;    
+}
+
+#our-space {
     background-color: var(--color-blue);
     color: var(--color-white);
+    width: auto;
+    height: 418px;
+}
+
+#our-space h1 {
+    font-size: 32px;
+    padding-top: 10px;
+    padding-bottom: 40px;
 }
 .fitness {
     background-color: var(--color-gray);
     width: 960px;
     height: 127px;
-    border-radius: 8px;
+    border-radius: 8px;    
 }
 
 .fitness p {
-    
-    font-weight: 700;
-    font-size: 20px;
+    margin-top: 10px;
+    font-weight: 700px;
+    font-size: 14px;
 }
 
 .fitness article {
     width: 920px;
     height: 40px;
+    
+    
 }
+
+#modalities {
+    background-color: var(--color-white);
+    color: var(--color-red);
+}
+
+.option {
+    background-color: var(--color-blue);
+    color: var(--color-white)
+}
+
+
