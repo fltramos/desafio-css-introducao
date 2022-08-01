@@ -16,6 +16,12 @@
     padding: 0;
 }
 
+a, 
+a:hover {
+    color: unset;
+    text-decoration: none;
+}
+
 .container {
     width: 100%;
     max-width: 960px;
@@ -29,31 +35,31 @@ header {
     align-items: center;    
 }
 
-nav h4 {
-    color: var(--color-white);    
-}
-
 .title {
-    display: flex;    
-    width: 99px;
-    height: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+.title h4 {     
+    font-size: 18px;    
+    color: var(--color-white);
 }
 
-.instagran {
-    display: flex;           
+.instagram {
+    display: flex;
+    align-items: center;          
 }
 
-.instagran img {
+.instagram img {
     width: 30px;
     height: 30px;    
 }
 
-.instagran-link h2 {
-    width: 85px;
-    height: 19px;    
+.instagram-link {
+    display: flex;     
     font-size: 14px;
     font-weight: 400;
     color: var(--color-white);
+    padding: 0 0 0 10px;
 }
 
 #our-space {
@@ -65,9 +71,9 @@ nav h4 {
 
 #our-space h1 {
     font-size: 32px;
-    padding-top: 10px;
-    padding-bottom: 40px;
+    padding: 20px 0 40px 0;    
 }
+
 .fitness {
     background-color: var(--color-gray);
     width: 960px;
@@ -102,8 +108,7 @@ nav h4 {
 
 #modalities h1 {
     font-size: 32px;
-    padding-top: 10px;
-    padding-bottom: 40px;
+    padding: 20px 0 40px 0;    
     color: var(--color-red);
 }
 
@@ -142,7 +147,7 @@ footer {
     
 }
 
-.footer-instagran {
+.footer-instagram {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,11 +156,11 @@ footer {
     font-weight: 400;
 }
 
-.footer-instagran img {
+.footer-instagram img {
     width: 30px;
     height: 30px;
 }
-.footer-twiter {
+.footer-twitter {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -164,7 +169,7 @@ footer {
     font-weight: 400;
 }
 
-.footer-twiter img {
+.footer-twitter img {
     width: 30px;
     height: 30px;    
 }
