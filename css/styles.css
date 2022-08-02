@@ -6,7 +6,6 @@
     --color-white: #FFFFFF;
     --color-gray: #CCCCCC;
     --color-black: #000
-
 }
 
 * {
@@ -55,11 +54,11 @@ header {
 }
 
 .instagram-link {
-    display: flex;     
+    display: flex;         
     font-size: 14px;
     font-weight: 400;
     color: var(--color-white);
-    padding: 0 0 0 10px;
+    padding: 0 0 5px 10px;
 }
 
 #our-space {
@@ -74,7 +73,7 @@ header {
     padding: 20px 0 40px 0;    
 }
 
-.fitness {
+.fitness {    
     background-color: var(--color-gray);
     width: 960px;
     height: 127px;
@@ -95,9 +94,9 @@ header {
     height: 40px;    
 }
 
-.fitness h4 {
+.fitness h3 {
     color: var(--color-black);
-    display: flex;
+    font-size: 20px;    
 }
 
 #modalities {
@@ -107,7 +106,7 @@ header {
 }
 
 #modalities h1 {
-    font-size: 32px;
+    font-size: 32px;    
     padding: 20px 0 40px 0;    
     color: var(--color-red);
 }
@@ -127,13 +126,13 @@ header {
     height: 40px;
 }
 
-.option h4 {
-    display: flex;
+.option h3 {
+    font-size: 20px;    
 }
 
 .option p {
     margin-top: 20px;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 14px;
     color: var(--color-white);
 }
@@ -143,8 +142,7 @@ footer {
     align-items: center;
     height: 262px;
     background-color: var(--color-black);
-    color: var(--color-white);
-    
+    color: var(--color-white);    
 }
 
 .footer-instagram {
@@ -174,9 +172,14 @@ footer {
     height: 30px;    
 }
 
-.p {
-    padding: 10px;
+.footer-address-instagram, .footer-address-twitter {
+    padding: 0 10px;
 }
+
+.footer-address-twitter p {
+    width: 84.55px;
+}
+
 .footer-copyright {
     display: flex;
     justify-content: center;
